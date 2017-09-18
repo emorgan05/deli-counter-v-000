@@ -8,6 +8,5 @@ def line(katz_deli)
       puts "The line is currently: #{counter}: #{katz_deli[counter]}"
       counter += 1
     end
-    end
   end
 end

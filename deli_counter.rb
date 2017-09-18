@@ -13,4 +13,7 @@ end
 
 def take_a_number(deli, name)
   deli << name
+  return deli
 end
+
+take_a_number([], "Ada")

@@ -22,7 +22,7 @@ def now_serving(deli)
     puts "There is nobody waiting to be served!"
   else
     number = 0
-    puts "Now serving deli[number]!"
+    puts "Currently serving #{deli[number]}."
     deli.unshift
   end
 end

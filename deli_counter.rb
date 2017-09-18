@@ -16,3 +16,13 @@ def take_a_number(deli, name)
   number = deli.index(name) + 1
   puts "Welcome, #{name}. You are number #{number} in line."
 end
+
+def now_serving(deli)
+  if deli.count == 0
+    puts "The line is currently empty."
+  else
+    number = deli.index(name) + 1
+    puts "Now serving number #{number}!"
+    deli.unshift
+  end
+end

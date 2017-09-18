@@ -23,6 +23,6 @@ def now_serving(deli)
   else
     number = 0
     puts "Currently serving #{deli[number]}."
-    deli.unshift
+    deli.shift
   end
 end

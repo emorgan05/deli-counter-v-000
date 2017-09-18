@@ -19,10 +19,10 @@ end
 
 def now_serving(deli)
   if deli.count == 0
-    puts "The line is currently empty."
+    puts "There is nobody waiting to be served!"
   else
-    number = deli.index(name) + 1
-    puts "Now serving number #{number}!"
+    number = 0
+    puts "Now serving deli[number]!"
     deli.unshift
   end
 end

@@ -5,7 +5,7 @@ def line(katz_deli)
     counter = 1
 
     while array.count < counter do
-      puts "The line is currently: #{counter}: #{katz_deli[counter]}"
+      puts "The line is currently: #{counter}: #{katz_deli[counter - 1]}"
       counter += 1
     end
   end

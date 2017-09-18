@@ -2,12 +2,11 @@ def line(deli)
   if deli.count == 0
     puts "The line is currently empty."
   else
-    counter = 1
-
-    while deli.count < counter do
-      puts "The line is currently: #{counter}. #{deli[counter - 1]}"
-      counter += 1
+    list = []
+    deli.each do |customer|
+      list.push((deli.index(customer) + 1). customer)
     end
+    list.join(" ")
   end
 end
 

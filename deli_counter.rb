@@ -3,10 +3,11 @@ def line(deli)
     puts "The line is currently empty."
   else
     list = []
-    deli.each do |customer|
-      list.push((deli.index(customer) + 1). customer)
+    deli.each_with_index do |name, index|
+      list.push("#{index + 1}. #{name}")
     end
-    list.join(" ")
+    string = list.join(" ")
+    puts "The line is currently: #{string}"
   end
 end
 

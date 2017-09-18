@@ -13,6 +13,6 @@ end
 
 def take_a_number(deli, name)
   deli << name
-  number = deli.index(name)
+  number = deli.index(name) + 1
   puts "Welcome, #{name}. You are number #{number} in line."
 end
